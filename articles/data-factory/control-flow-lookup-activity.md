@@ -59,7 +59,7 @@ Name | Description | Type | Required
 ---- | ----------- | ---- | --------
 dataset | The dataset attribute is to provide the dataset reference for the lookup. Currently, the supported dataset types are:<ul><li>`AzureBlobDataset` for [Azure Blob Storage](connector-azure-blob-storage.md#dataset-properties) as source</li><li>`FileShareDataset` for [File System](connector-file-system.md#dataset-properties) as source</li><li>`AzureSqlTableDataset` for [Azure SQL Database](connector-azure-sql-database.md#dataset-properties) or [Azure SQL Data Warehouse](connector-azure-sql-data-warehouse.md#dataset-properties) as source</li><li>`SqlServerTable` for [SQL Server](connector-sql-server.md#dataset-properties) as source</li><li>`AzureTableDataset` for [Azure Table Storage](connector-azure-table-storage.md#dataset-properties) as source</li> | key/value pair | Yes
 source | Dataset-specific source properties, same as copy activity source. Learn details from the "Copy activity properties" section in each corresponding connector article. | Key/value pair | Yes
-firstRowOnly | Indicate whether to return only the first row or all rows. | boolean | No. Default is `ture`.
+firstRowOnly | Indicate whether to return only the first row or all rows. | boolean | No. Default is `true`.
 
 ## Use Lookup activity result in subsequent activity
 
